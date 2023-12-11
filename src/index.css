@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: rgb(20, 20, 20);
+}
+.myFont {
+  font-family: "Bebas Neue", sans-serif;
+}
+::selection {
+  background: none;
+}
+.bg-img {
+  background-image: url("/src/assets/graphics/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
